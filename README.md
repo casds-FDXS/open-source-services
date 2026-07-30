@@ -111,7 +111,7 @@ Pricing is quoted separately according to task scope, complexity, delivery time,
 ## Contact / 联系方式
 
 - GitHub: [github.com/casds-FDXS](https://github.com/casds-FDXS)
-- Email / 邮箱: `your-business-email@example.com`
+- Email / 邮箱: [z32130424@gmail.com](mailto:z32130424@gmail.com)
 
 当前 GitHub 公开资料未显示适合对外业务联系的邮箱，因此保留明确占位符；请在确认专用业务邮箱后替换。
 
