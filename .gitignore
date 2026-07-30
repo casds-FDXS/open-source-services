@@ -1,0 +1,36 @@
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+credentials.json
+secrets.*
+
+# Dependency, build, and cache output
+node_modules/
+dist/
+build/
+coverage/
+.cache/
+*.log
+
+# Archives, databases, and local exports
+*.zip
+*.tar
+*.gz
+*.7z
+*.sqlite
+*.db
+*.bak
