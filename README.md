@@ -14,6 +14,7 @@ An independent technical collaboration page for open-source projects, software t
 - [Technical Capabilities / 技术能力](#technical-capabilities--技术能力)
 - [Scope and Limitations / 服务边界](#scope-and-limitations--服务边界)
 - [Pricing and Cooperation / 报价与合作](#pricing-and-cooperation--报价与合作)
+- [Payment and Transaction Process / 付款与交易流程](#payment-and-transaction-process--付款与交易流程)
 - [Contact / 联系方式](#contact--联系方式)
 - [Notice / 说明](#notice--说明)
 
@@ -108,14 +109,41 @@ Pricing is quoted separately according to task scope, complexity, delivery time,
 - 正式开发前确认交付范围和付款方式。<br>
   Delivery scope and payment method are confirmed before formal development.
 
+## Payment and Transaction Process / 付款与交易流程
+
+This repository is a public service and portfolio page. It does not provide
+automatic checkout or process financial information directly.
+
+Clients contact me through the public email address or GitHub to discuss the
+task. Before work begins, both parties confirm the task scope, deliverables,
+price, delivery schedule, acceptance criteria, and payment arrangement.
+
+After the terms are confirmed, I create and send a PayPal invoice or payment
+request to the client. The invoice describes the agreed technical service,
+task scope, amount, and relevant delivery information.
+
+The client completes the payment through PayPal. Technical work is then
+delivered through a GitHub pull request, repository, documentation, or other
+agreed method. Communication, invoice, payment, delivery, and acceptance
+records are retained for each transaction.
+
+本仓库是公开的服务介绍与作品展示页面，不提供自动结账功能，也不直接处理
+银行卡或其他金融信息。
+
+客户通过公开联系邮箱或 GitHub 与我联系并沟通任务。在正式开始工作前，
+双方将确认任务范围、交付成果、价格、交付时间、验收标准和付款安排。
+
+确认合作条件后，我会通过 PayPal 创建并发送账单或付款请求。账单中会列明
+双方约定的技术服务、任务范围、金额及必要的交付信息。
+
+客户通过 PayPal 完成付款，技术成果随后通过 GitHub Pull Request、代码仓库、
+技术文档或双方约定的其他方式交付。每笔交易都会保留沟通、账单、付款、
+交付和验收记录。
+
 ## Contact / 联系方式
 
 - GitHub: [github.com/casds-FDXS](https://github.com/casds-FDXS)
 - Email / 邮箱: [z32130424@gmail.com](mailto:z32130424@gmail.com)
-
-当前 GitHub 公开资料未显示适合对外业务联系的邮箱，因此保留明确占位符；请在确认专用业务邮箱后替换。
-
-No suitable public business email is shown in the current GitHub profile, so the explicit placeholder remains. Replace it only after confirming a dedicated business contact address.
 
 ## Notice / 说明
 
