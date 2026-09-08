@@ -21,7 +21,7 @@ test("combined battles uses only the fixed Tomato.gg host and bounded page size"
     },
   });
 
-  await client.combinedBattles(2023807495, {
+  await client.combinedBattles(1001234567, {
     page: 2,
     pageSize: 10,
     battleType: "onslaught",
@@ -31,7 +31,7 @@ test("combined battles uses only the fixed Tomato.gg host and bounded page size"
 
   const url = new URL(captured.url);
   assert.equal(url.origin, "https://api.tomato.gg");
-  assert.equal(url.pathname, "/api/player/combined-battles/2023807495");
+  assert.equal(url.pathname, "/api/player/combined-battles/1001234567");
   assert.equal(url.searchParams.get("page"), "2");
   assert.equal(url.searchParams.get("pageSize"), "10");
   assert.equal(url.searchParams.get("battleType"), "onslaught");
