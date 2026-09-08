@@ -1,0 +1,18 @@
+{
+  "name": "wot-tomato-bridge",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Read-only loopback MCP bridge for a bounded subset of the Tomato.gg API.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/server.mjs",
+    "doctor": "node src/doctor.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.30.0"
+  }
+}
