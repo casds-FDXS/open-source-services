@@ -8,7 +8,7 @@
     "node": ">=20"
   },
   "scripts": {
-    "start": "node src/server.mjs",
+    "start": "node src/index.mjs",
     "doctor": "node src/doctor.mjs",
     "test": "node --test"
   },
