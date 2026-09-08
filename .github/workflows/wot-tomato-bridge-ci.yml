@@ -1,0 +1,43 @@
+name: WoT Tomato Bridge CI
+
+on:
+  pull_request:
+    paths:
+      - "projects/wot-tomato-bridge/**"
+      - ".github/workflows/wot-tomato-bridge-ci.yml"
+  push:
+    branches:
+      - "feat/wot-tomato-bridge"
+    paths:
+      - "projects/wot-tomato-bridge/**"
+      - ".github/workflows/wot-tomato-bridge-ci.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: projects/wot-tomato-bridge
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: projects/wot-tomato-bridge/package-lock.json
+      - run: npm install --package-lock-only --ignore-scripts
+      - run: npm install --ignore-scripts
+      - run: node --check src/config.mjs
+      - run: node --check src/client.mjs
+      - run: node --check src/server.mjs
+      - run: node --check src/index.mjs
+      - run: node --check src/doctor.mjs
+      - run: npm test
+      - run: npm run doctor
+        env:
+          TOMATO_API_KEY: tmgg_ci_placeholder_key
+          TOMATO_DEFAULT_SERVER: asia
+          TOMATO_DEFAULT_PLAYER_ID: "1001234567"
